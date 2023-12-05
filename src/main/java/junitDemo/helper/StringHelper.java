@@ -25,7 +25,7 @@ public class StringHelper {
 		
 		String last2Chars = str.substring(str.length() - 2,str.length());
 		
-		if(first2Chars==last2Chars)
+		if(first2Chars.equals(last2Chars))
 			return true;
 		return false;
 	}
